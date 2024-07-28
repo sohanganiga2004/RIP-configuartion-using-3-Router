@@ -20,7 +20,7 @@ Configured a network using RIP (Routing Information Protocol) on three routers i
 3. **IP Address Configuration:**
    - Assign IP addresses to each router's interfaces and PCs. Ensure all devices within the same subnet can communicate with each other.
 
-   Example for Router1:
+   Example for Router2:
    ```shell
    Router> enable
    Router# configure terminal
@@ -44,7 +44,7 @@ Configured a network using RIP (Routing Information Protocol) on three routers i
 4. **Configure RIP on Routers:**
    - Enable RIP on each router and add the network addresses directly connected to the router.
 
-   Example for Router1:
+   Example for Router2:
    ```shell
    Router> enable
    Router# configure terminal
@@ -56,7 +56,7 @@ Configured a network using RIP (Routing Information Protocol) on three routers i
    Router(config)# exit
    ```
 
-5. **Repeat Steps for Other Routers:**
+5. **Repeat Steps for Other Routers 1 and 3:**
    - Configure IP addresses and RIP for Router2 and Router3 similarly, adjusting IP addresses and networks as per the network design.
 
 6. **Verify Configuration:**
